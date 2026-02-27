@@ -3,7 +3,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO tomlandrum/capnproto
-    REF "cb03d8224592ba44395ab38351e7d84318946471"
+    REF "a7284b80dc0040a4f0c33cc569403c03ba579604"
     HEAD_REF visibility
     PATCHES
         undef-KJ_USE_EPOLL-for-ANDROID_PLATFORM-23.patch
