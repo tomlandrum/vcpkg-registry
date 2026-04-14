@@ -25,7 +25,10 @@
       "dependencies": [
         {
           "name": "boost-asio",
-          "default-features": false
+          "default-features": false,
+          "features": [
+            "ssl"
+          ]
         }
       ]
     },
