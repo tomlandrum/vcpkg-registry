@@ -3,7 +3,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://git@github.com/matterfi/capnproto.git
-    REF e134a301f9ff6805d19e27301f494e2f4b0325ad
+    REF c1af421aa09a14f6faec4d659152325601f360ff
     HEAD_REF master
     PATCHES
         undef-KJ_USE_EPOLL-for-ANDROID_PLATFORM-23.patch
