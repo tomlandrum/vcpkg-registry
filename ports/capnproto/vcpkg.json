@@ -1,6 +1,6 @@
 {
   "name": "capnproto",
-  "version": "2026-06-22",
+  "version": "2026-07-08",
   "port-version": 0,
   "description": "Data interchange format and capability-based RPC system",
   "homepage": "https://capnproto.org/",

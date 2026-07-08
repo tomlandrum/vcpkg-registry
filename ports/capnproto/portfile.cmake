@@ -1,9 +1,11 @@
+#
 #vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
-vcpkg_from_git(
+vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    URL https://git@github.com/tomlandrum/capnproto.git
-    REF 7ee36c427fd70bb108fcd5d7b21698e7ee139cd6
+    REPO capnproto/capnproto
+    REF "v${VERSION}"
+    SHA512 6f31294ffe613b28ee891a7e7465d35781697dc7ed51f806b7c707c8fc94ead01099ab356041646e382320ff922f40c393b4b58f3106bbc3fb547386d7c0ed1a
     HEAD_REF master
     PATCHES
         undef-KJ_USE_EPOLL-for-ANDROID_PLATFORM-23.patch
