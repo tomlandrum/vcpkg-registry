@@ -1,11 +1,10 @@
 {
   "name": "capnproto",
-  "version": "2026-07-08",
-  "port-version": 0,
+  "version": "1.5.0",
   "description": "Data interchange format and capability-based RPC system",
   "homepage": "https://capnproto.org/",
   "license": "MIT",
-  "supports": "(!uwp & !arm32)",
+  "supports": "!windows | (!uwp & !arm32)",
   "dependencies": [
     {
       "name": "vcpkg-cmake",

@@ -5,7 +5,7 @@
             "port-version": 1
         },
         "capnproto": {
-            "baseline": "2026-07-08",
+            "baseline": "1.5.0",
             "port-version": 0
         },
         "opentxs": {
